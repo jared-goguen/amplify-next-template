@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background: linear-gradient(180deg, rgb(var(--background-start-rgb)), rgb(var(--background-end-rgb)));
+    background: linear-gradient(180deg, rgb(117, 81, 194), rgb(255, 255, 255));
     display: flex;
     font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
     height: 100vh;
@@ -22,10 +22,10 @@ body {
     font-size: 1em;
     font-weight: 500;
     font-family: inherit;
-    background-color: rgb(var(--foreground-rgb));
+    background-color: #1a1a1a;
     cursor: pointer;
     transition: border-color 0.25s;
-    color: rgb(var(--background-end-rgb));
+    color: white;
   }
   button:hover {
     border-color: #646cff;
@@ -43,20 +43,20 @@ body {
     display: flex;
     flex-direction: column;
     margin: 8px 0;
-    border: 1px solid rgb(var(--foreground-rgb));
+    border: 1px solid black;
     gap: 1px;
-    background-color: rgb(var(--foreground-rgb));
+    background-color: black;
     border-radius: 8px;
     overflow: auto;
   }
   
   li {
-    background-color: rgb(var(--background-end-rgb));
+    background-color: white;
     padding: 8px;
   }
   
   li:hover {
-    background: rgb(var(--callout-rgb));
+    background: #dadbf9;
   }
   
   a {
