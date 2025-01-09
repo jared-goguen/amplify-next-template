@@ -1,4 +1,4 @@
-import ConfigureAmplifyClientSide from '@/components/ConfigureAmplifyClientSide';
+import ConfigureAmplifyClientSide from './ConfigureAmplifyClientSide';
 import './globals.css';
 
 import type { Metadata } from 'next';
